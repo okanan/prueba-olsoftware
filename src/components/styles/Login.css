@@ -1,0 +1,78 @@
+:root{
+  --font-color-div: rgb(185, 185, 185);
+  --background: white;
+}
+.container{
+  background-color: var(--background);
+  font-size: 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 370px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding: 2.3rem;
+  margin: 13% 90% 6% ;
+  -webkit-box-shadow: 10px 10px 57px -21px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 57px -21px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 57px -21px rgba(0,0,0,0.75);
+}
+
+.login-form{
+  margin: 18% 0;
+  width: 90%;
+}
+
+.inputs{
+  -webkit-box-shadow: 3px 3px 30px -15px rgba(97,97,97,1);
+  -moz-box-shadow: 3px 3px 30px -15px rgba(97,97,97,1);
+  box-shadow: 3px 3px 30px -15px rgba(97,97,97,1);
+}
+
+.login-form input{
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.login-form input:focus{
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+
+.user-input{
+  display: flex;
+  padding: 5%;
+  border: 0.1px solid rgb(218, 218, 218);
+  color: var(--font-color-div);
+  background-color: var(--background);
+  width: 100%;
+}
+
+.psw-input{
+  display: flex;
+  padding: 5%;
+  border: 0.2px solid rgb(212, 212, 212);
+  background-color: var(--background);
+  width: 100%;
+  color: var(--font-color-div);
+}
+
+.submit-button{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login-form button{
+  background-color: rgb(34, 60, 204);
+  color: white;
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 15%;
+}
